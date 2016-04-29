@@ -1,0 +1,4 @@
+git --global user.email (user email here) --username
+git clone https://github.com/kevingallego/final_progApps.git --access repository
+git pull -- for updated files
+git push -- updating server
