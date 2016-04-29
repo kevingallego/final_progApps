@@ -1,0 +1,6 @@
+checklist
+schedule
+reminder
+to do
+grades
+attendance
