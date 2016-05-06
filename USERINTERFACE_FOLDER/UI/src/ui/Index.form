@@ -122,7 +122,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="jButton2">
           <Properties>
-            <Property name="text" type="java.lang.String" value="GRADES"/>
+            <Property name="text" type="java.lang.String" value="SCHEDULE"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
@@ -130,7 +130,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="jButton3">
           <Properties>
-            <Property name="text" type="java.lang.String" value="SCHEDULE"/>
+            <Property name="text" type="java.lang.String" value="GRADES"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>

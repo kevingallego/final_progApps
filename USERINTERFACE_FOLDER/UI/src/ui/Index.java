@@ -50,14 +50,14 @@ public class Index extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setText("GRADES");
+        jButton2.setText("SCHEDULE");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
 
-        jButton3.setText("SCHEDULE");
+        jButton3.setText("GRADES");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
