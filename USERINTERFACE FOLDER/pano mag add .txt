@@ -1,1 +1,0 @@
-git add blahblah.txt -m "comment kung anong meron sa file niyo"
