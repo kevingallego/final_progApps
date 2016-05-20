@@ -27,7 +27,7 @@ public class ViewGrades extends javax.swing.JFrame {
      * Creates new form ViewSchedule
      */
     public void loadTable() {
-        File file = new File("F:\\PROGAPPS FINAL\\UI\\Grade.txt");
+        File file = new File("C:\\Users\\Admin\\Desktop\\final_progApps\\PROGAPPS FINAL\\UI\\Grade.txt");
         try {
             ObjectInputStream in = new ObjectInputStream(
             new FileInputStream(file));

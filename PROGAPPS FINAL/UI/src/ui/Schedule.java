@@ -37,7 +37,7 @@ public class Schedule extends javax.swing.JFrame {
     private void saveTable() {
         try{
                 //the file path
-               File file = new File("F:\\PROGAPPS FINAL\\UI\\Text1.txt");
+               File file = new File("C:\\Users\\Admin\\Desktop\\final_progApps\\PROGAPPS FINAL\\UI\\Text.txt");
                //if the file not exist create one
                if(!file.exists()){
                    file.createNewFile();
@@ -74,7 +74,7 @@ public class Schedule extends javax.swing.JFrame {
      
      
     public void loadTable() {
-        File file = new File("F:\\PROGAPPS FINAL\\UI\\Text.txt");
+        File file = new File("C:\\Users\\Admin\\Desktop\\final_progApps\\PROGAPPS FINAL\\UI\\Text.txt");
         try {
             ObjectInputStream in = new ObjectInputStream(
             new FileInputStream(file));

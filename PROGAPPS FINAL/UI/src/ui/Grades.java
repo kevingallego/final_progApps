@@ -33,7 +33,7 @@ public class Grades extends JFrame {
      
     private void saveTable() {
         try {
-             File file = new File("F:\\PROGAPPS FINAL\\UI\\Grade.txt");
+             File file = new File("C:\\Users\\Admin\\Desktop\\final_progApps\\PROGAPPS FINAL\\UI\\Grade.txt");
             ObjectOutputStream out = new ObjectOutputStream(
                     new FileOutputStream(file));
                 out.writeObject(tableModel.getDataVector());
@@ -46,7 +46,7 @@ public class Grades extends JFrame {
      
      
     public void loadTable() {
-        File file = new File("F:\\PROGAPPS FINAL\\UI\\Grade.txt");
+        File file = new File("C:\\Users\\Admin\\Desktop\\final_progApps\\PROGAPPS FINAL\\UI\\Grade.txt");
         try {
             ObjectInputStream in = new ObjectInputStream(
             new FileInputStream(file));
@@ -111,7 +111,7 @@ public class Grades extends JFrame {
          
         // Create a combo box for season
         JComboBox jcboSeason = new JComboBox();
-        File file = new File("F:\\PROGAPPS FINAL\\UI\\Text1.txt");
+        File file = new File("C:\\Users\\Admin\\Desktop\\final_progApps\\PROGAPPS FINAL\\UI\\Text1.txt");
         String data = "";
         try {
             

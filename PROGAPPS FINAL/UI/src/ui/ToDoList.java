@@ -33,7 +33,7 @@ public class ToDoList extends JFrame {
      
     private void saveTable() {
         try {
-             File file = new File("F:\\PROGAPPS FINAL\\UI\\Todo.txt");
+             File file = new File("C:\\Users\\Admin\\Desktop\\final_progApps\\PROGAPPS FINAL\\UI\\Todo.txt");
             ObjectOutputStream out = new ObjectOutputStream(
                     new FileOutputStream(file));
                 out.writeObject(tableModel.getDataVector());
@@ -46,7 +46,7 @@ public class ToDoList extends JFrame {
      
      
     public void loadTable() {
-        File file = new File("F:\\PROGAPPS FINAL\\UI\\Todo.txt");
+        File file = new File("C:\\Users\\Admin\\Desktop\\final_progApps\\PROGAPPS FINAL\\UI\\Todo.txt");
         try {
             ObjectInputStream in = new ObjectInputStream(
             new FileInputStream(file));
